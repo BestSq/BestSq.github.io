@@ -22,7 +22,7 @@
     <meta name="description" content="">
     <meta http-equiv="Cache-control" content="no-cache">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>MrSun&#39;s Studio</title>
+    <title>JSP要点，注意事项 · MrSun&#39;s Studio</title>
     <style type="text/css">
     @font-face {
         font-family: 'Oswald-Regular';
@@ -203,12 +203,23 @@
 </head>
 
     
+        <body class="post-body">
+    
     
 <header class="header">
 
     <div class="read-progress"></div>
     <div class="header-sidebar-menu">&#xe775;</div>
     <!-- post页的toggle banner  -->
+    
+    <div class="banner">
+            <div class="blog-title">
+                <a href="/">MrSun&#39;s Studio.</a>
+            </div>
+            <div class="post-title">
+                <a href="#" class="post-name">JSP要点，注意事项</a>
+            </div>
+    </div>
     
     <a class="home-link" href="/">MrSun's Studio.</a>
 </header>
@@ -220,24 +231,74 @@
 
 
 
+
+height:50vh;
 ">
     
     <!-- 主页  -->
+    
+    
+    <!-- 404页  -->
             
     <div class="site-intro-placeholder"></div>
-    <div class="site-intro-img" style="background-image: url(/)"></div>
+    <div class="site-intro-img" style="background-image: url(/intro/post-bg.jpg)"></div>
     <div class="site-intro-meta">
         <!-- 标题  -->
         <h1 class="intro-title">
             <!-- 主页  -->
+            
+            JSP要点，注意事项
+            <!-- 404 -->
             
         </h1>
         <!-- 副标题 -->
         <p class="intro-subtitle">
             <!-- 主页副标题  -->
             
+            
+            <!-- 404 -->
+            
         </p>
         <!-- 文章页meta -->
+        
+            <div class="post-intros">
+                <!-- 文章页标签  -->
+                
+                    <div class="post-intro-tags">
+    
+        <a class="post-tag" href="javascript:void(0);" data-tags="JSP">JSP</a>
+    
+</div>
+                
+                
+                    <div class="post-intro-read">
+                        <span>字数统计: <span class="post-count word-count">484</span>阅读时长: <span class="post-count reading-time">1 min</span></span>
+                    </div>
+                
+                <div class="post-intro-meta">
+                    <span class="post-intro-calander iconfont-archer">&#xe676;</span>
+                    <span class="post-intro-time">2018/12/02</span>
+                    
+                    <span id="busuanzi_container_page_pv" class="busuanzi-pv">
+                        <span class="iconfont-archer">&#xe602;</span>
+                        <span id="busuanzi_value_page_pv"></span>
+                    </span>
+                    
+                    <span class="shareWrapper">
+                        <span class="iconfont-archer shareIcon">&#xe71d;</span>
+                        <span class="shareText">Share</span>
+                        <ul class="shareList">
+                            <li class="iconfont-archer share-qr" data-type="qr">&#xe75b;
+                                <div class="share-qrcode"></div>
+                            </li>
+                            <li class="iconfont-archer" data-type="weibo">&#xe619;</li>
+                            <li class="iconfont-archer" data-type="qzone">&#xe62e;</li>
+                            <li class="iconfont-archer" data-type="twitter">&#xe634;</li>
+                            <li class="iconfont-archer" data-type="facebook">&#xe67a;</li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
         
     </div>
 </div>
@@ -338,68 +399,48 @@
 </script>        
         <img class="loading" src="/assets/loading.svg" style="display: block; margin: 6rem auto 0 auto; width: 6rem; height: 6rem;" />
         <div class="container container-unloaded">
-            <main class="main index-page">
-    
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2018/12/02/JSP/">
-            
-                <span>JSP要点，注意事项</span>
-        </a>
-        <div class="abstract-content">
-            123456789101112131415161718 1.JavaEE包括JavaSE2.JavaEE和web页面是独立的技术，但是JavaEE提供了对web页面的集成。3.jsp页面的构成：静态内容（html静态文本），java脚本（声明，小脚本，表达式），指令（静态，动态），动作，注释（三种）。4.jsp的执行过程：jsp表面是静态网页实际上是一个java类（servelet），它通过翻译将jsp转化成一个java类，java类通过编译转换成class文件再执行（第一次请求之后，web容器可以重用已经编译好的字节码文件，除非原来的jsp文件已经发生改变）。5.jsp中插入java代...
-        </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/12/02</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class="abstract-tags">
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags="JSP">JSP</a>
-    
-</div>
-            
-        </div>
+            <main class="main post-page">
+    <article class="article-entry">
+        <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"> 1.JavaEE包括JavaSE</span><br><span class="line">2.JavaEE和web页面是独立的技术，但是JavaEE提供了对web页面的集成。</span><br><span class="line">3.jsp页面的构成：静态内容（html静态文本），java脚本（声明，小脚本，表达式），指令（静态，动态），动作，注释（三种）。</span><br><span class="line">4.jsp的执行过程：jsp表面是静态网页实际上是一个java类（servelet），它通过翻译将jsp转化成一个java类，java类通过编译转换成class文件再执行（第一次请求之后，web容器可以重用已经编译好的字节码文件，除非原来的jsp文件已经发生改变）。</span><br><span class="line">5.jsp中插入java代码片段的方法一共有三种：声明，小脚本，表达式（&lt;%! %&gt;、&lt;% %&gt;、&lt;%=c%&gt;）</span><br><span class="line">==<span class="strong">**声明：声明中定义的变量、方法会变成serverlet类的成员变量和成员方法**</span>==</span><br><span class="line">小脚本：小脚本中定义的变量会成为servlet类中service（）的局部变量</span><br><span class="line">servelet是一种单实例多线程的技术，不管多少个用户访问，不管访问多少次，一个servelet类只new一次，所以成员变量是共享的（相当于全局变量），但是每次访问会产生一个新的线程，新的线程会调用service（）方法中定义的局部变量，每个用户单独一份。</span><br><span class="line">声明中不能使用内建对象，小脚本和表达式可以使用</span><br><span class="line">6.jsp中可以使用的三种注释</span><br><span class="line">1）.java注释</span><br><span class="line">2）.html注释：只能注释html标签</span><br><span class="line">3）.jsp注释：不会传送到客户端，节省网络流量，同时提高安全性</span><br><span class="line">7.动态包含与静态包含的区别：</span><br><span class="line">1）.语法：&lt;%@include file=".jsp"%&gt;</span><br><span class="line"><span class="code">	&lt;jsp:include page=".jsp"&gt;&lt;/jsp:include&gt;</span></span><br><span class="line">2).包含时机不同：静态包含在翻译阶段执行，动态包含在运行class类的时候执行</span><br><span class="line">3).静态包含不允许存在同名变量，动态包含可以</span><br></pre></td></tr></table></figure>
     </article>
+    <!-- license  -->
     
-    
-    
-    
-    
-    
-    <article class="index-post">
-        <a class="abstract-title" href="/2018/11/21/sql-javase实现增删改查/">
-            
-                <span>javase+MySql实现员工增删改查操作</span>
-        </a>
-        <div class="abstract-content">
-            整体框架搭建：创建一个实现对于员工增删改查的方法接口（数据层，对数据库进行操作）12345678910package cn.dao;import java.util.List;import com.entity.Employee;public interface EmployeeDao &#123;	public int insert(Employee emp);//添加员工	public int update(Employee emp);//更新员工	public int delete(int empNo);//删除指定编号的员工	public List&lt;Employee&gt;...
+        <div class="license-wrapper">
+            <p>原文作者：<a href="http://yoursite.com">MrSun</a>
+            </p><p>原文链接：<a href="http://yoursite.com/2018/12/02/JSP/">http://yoursite.com/2018/12/02/JSP/</a>
+            </p><p>发表日期：<a href="http://yoursite.com/2018/12/02/JSP/">December 2nd 2018, 8:26:16 pm</a>
+            </p><p>更新日期：<a href="http://yoursite.com/2018/12/02/JSP/">December 2nd 2018, 8:26:48 pm</a>
+            </p><p>版权声明：本文采用<a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">知识共享署名-非商业性使用 4.0 国际许可协议</a>进行许可</p>
         </div>
-        <div class="abstract-post-meta">
-            <!-- date  -->
-            <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/11/21</span>
-            </div>
-            <!-- tags  -->
-            
-            <div class="abstract-tags">
-    
-        <a class="post-tag" href="javascript:void(0);" data-tags="Javase ,MySql">Javase ,MySql</a>
-    
-</div>
-            
-        </div>
-    </article>
     
     <!-- paginator  -->
+    <ul class="post-paginator">
+        <li class="next">
+            
+        </li>
+        <li class="previous">
+            
+                <div class="prevSlogan">Previous Post</div>
+                <a href="/2018/11/21/sql-javase实现增删改查/" title="javase+MySql实现员工增删改查操作">
+                    <div class="prevTitle">javase+MySql实现员工增删改查操作</div>
+                </a>
+            
+        </li>
+    </ul>
+    <!-- 评论插件 -->
+    <!-- 来必力City版安装代码 -->
+
+<!-- City版安装代码已完成 -->
     
+    
+    <!-- partial('_partial/comment/changyan') -->
+    <!--PC版-->
+
+
+    
+    
+
+    <!-- 评论 -->
 </main>
             <!-- profile -->
             
@@ -471,6 +512,24 @@
 </footer>
     </div>
     <!-- toc -->
+    
+    <div class="toc-wrapper" style=
+    
+
+
+
+
+
+
+
+top:50vh;
+
+    >
+        <div class="toc-catalog">
+            <span class="iconfont-archer catalog-icon">&#xe613;</span><span>CATALOG</span>
+        </div>
+        
+    </div>
     
     <div class="back-top iconfont-archer">&#xe639;</div>
     <div class="sidebar sidebar-hide">
@@ -609,6 +668,8 @@ jsonContent:
     
     </div>
     <!-- async load share.js -->
+    
+        <script src="/scripts/share.js" async></script>    
      
     </body>
 </html>
