@@ -346,23 +346,23 @@
     
     
     <article class="index-post">
-        <a class="abstract-title" href="/2018/11/21/sql-javase实现增删改查/">
+        <a class="abstract-title" href="/2018/12/09/Servlet/">
             
-                <span>javase+MySql实现员工增删改查操作</span>
+                <span>Servlet</span>
         </a>
         <div class="abstract-content">
-            整体框架搭建：创建一个实现对于员工增删改查的方法接口（数据层，对数据库进行操作）12345678910package cn.dao;import java.util.List;import com.entity.Employee;public interface EmployeeDao &#123;	public int insert(Employee emp);//添加员工	public int update(Employee emp);//更新员工	public int delete(int empNo);//删除指定编号的员工	public List&lt;Employee&gt;...
+            一、Servelet的执行过程：1-3为servlet的生命周期关键技术：xml的解析、反射入口：用户在地址栏发起请求localhost…1.类加载（tomcat负责：分为客户端发起对servlet请求时加载和项目启动时自动加载两种）（1）截取地址栏中servlet路径（2）在web.xml中查找的值与上面截取的是否相等，找不到报404（3）找到该url后，找到其对应的（4）在xml中的中寻找该name（5）找到后找其对应的(得到servlet类的完整路径)（6）Class c=Class.forName(路径)；(类加载)2.创建servlet对象（注意servlet是单实例多线程，即...
         </div>
         <div class="abstract-post-meta">
             <!-- date  -->
             <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/11/21</span>
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2018/12/09</span>
             </div>
             <!-- tags  -->
             
             <div class="abstract-tags">
     
-        <a class="post-tag" href="javascript:void(0);" data-tags="Javase ,MySql">Javase ,MySql</a>
+        <a class="post-tag" href="javascript:void(0);" data-tags="Servlet">Servlet</a>
     
 </div>
             
